@@ -10,7 +10,7 @@ const projectsData = [
     image: "/images/RNQFqP6PtYg (1)-fotor-bg-remover-20241021195057.png",
     tag: ["Общее"],
     content: (
-      <p className="text-base lg:text-lg">
+      <div className="text-base lg:text-lg">
         «Умный гардероб» представляет собой стильное и функциональное
         пространство с интегрированными технологиями. Основные черты дизайна
         включают в себя:
@@ -37,7 +37,7 @@ const projectsData = [
             системы.
           </li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -45,7 +45,7 @@ const projectsData = [
     image: "/images/gxgeDwc6LwE.png",
     tag: ["Характеристики"],
     content: (
-      <p className="text-base lg:text-lg">
+      <div className="text-base lg:text-lg">
         Автоматизированная система «Умный гардероб» имеет следующие
         технологические параметры:
         <ul className="list-disc pl-10">
@@ -66,7 +66,7 @@ const projectsData = [
           <li><span className="font-bold">Система энергопотребления:</span> энергосберегающая, с функцией отключения модулей при их неиспользовании;</li>
           <li><span className="font-bold">Технология хранения:</span> максимальное использование пространства, антикоррозийное покрытие ячеек гардероба;</li>
         </ul>
-      </p>
+      </div>
     ),
   },
   {
@@ -74,7 +74,7 @@ const projectsData = [
     image: "/images/xKxHT5DNsBw.png",
     tag: ["Особенности"],
     content: (
-      <p className="text-base lg:text-lg">
+      <div className="text-base lg:text-lg">
         «Умный гардероб» имеет ряд конкурентных преимуществ:
         <ul className="list-disc pl-10">
           <li>
@@ -98,7 +98,7 @@ const projectsData = [
           компании у клиентов, партнеров и работников;
           </li>
         </ul>
-      </p>
+      </div>
     ),
   },
 ];
