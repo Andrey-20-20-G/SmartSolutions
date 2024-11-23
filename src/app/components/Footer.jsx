@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
-      <div className="container p-12 grid md:grid-cols-3 gap-8 md:gap-12">
+      <div className="container max-w-full p-12 grid md:grid-cols-3 gap-8 md:gap-12">
         <div className="mt-4">
           <h4>SS</h4>
           <br />
@@ -40,7 +40,7 @@ const Footer = () => {
         <div className="mt-4">
           <h4>При поддержке</h4> <br />
           <p className="text-slate-400">
-            <img src="images/ФондМ.jpg" alt="Логотип ФондМ" width={330}/>
+            <img src="images/ФондМ.jpg" alt="Логотип ФондМ" width={380}/>
           </p>
         </div>
       </div>
