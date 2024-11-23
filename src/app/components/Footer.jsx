@@ -40,7 +40,7 @@ const Footer = () => {
         <div className="mt-4">
           <h4>При поддержке</h4> <br />
           <p className="text-slate-400">
-            <img src="images/ФондМ.jpg" alt="Логотип ФондМ" width={380}/>
+            <img src="images/ФондМ.jpg" alt="Логотип ФондМ" width={330}/>
           </p>
         </div>
       </div>
