@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 
 const Footer = () => {
   return (
@@ -40,7 +41,14 @@ const Footer = () => {
         <div className="mt-4">
           <h4>При поддержке</h4> <br />
           <p className="text-slate-400">
-            <img src="images/ФондМ.jpg" alt="Логотип ФондМ" width={330}/>
+            <div className="fund">
+              Проект создан при поддержке Федерального государственного
+              бюджетного учреждения Фонд содействия развитию малых форм
+              предприятий в научно-технической сфере в рамках программы
+              &ldquo;Студенческий стартап&rdquo; федерального проекта 
+              &ldquo;Платформа университетского технологического предпринимательства&rdquo;
+            </div>
+            <img src="images/ФондМ.jpg" alt="Логотип ФондМ" width={330} />
           </p>
         </div>
       </div>
